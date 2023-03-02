@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: red;
+    height: 100vh;
+}
+
+.container .box {
+    /* align-items: center; */
+    background-color: rgb(239, 245, 245);
+    height: 50%;
+    width: 40%;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+.box .text {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.box .txt {
+    margin-left: 100px;
+    margin-top: 15px;
+    /* font-size: 20px; */
+}
+
+.box .txt p {
+    line-height: 10px;
+}
+
+.box h2 {
+    width: 80%;
+    background: rgb(253, 150, 165);
+    /* align-items: center; */
+    /* display: flex; */
+    margin: 30px;
+    border-radius: 10px;
+    padding-left: 60px;
+    color: rgb(170, 10, 10);
+    border-left: 5px solid red;
+    height: 70px;
+}
+
+.box h2 .war-text {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 5px;
+    color: rgb(172, 16, 16);
+}
+
+button {
+    /* margin-inline: 20px; */
+    margin-left: 100px;
+    padding: 10px 35px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.btn1 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(44, 82, 83);
+}
+
+.btn2 {
+    color: white;
+    background-color: red;
+
+}
+
+.btn2 i {
+    font-size: 15px;
+}
+
+.box h2 i {
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: -39px;
+}
